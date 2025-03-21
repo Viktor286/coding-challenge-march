@@ -97,7 +97,7 @@ export const packages: Package[] = [
     features: [
       'Private luxury cabin',
       'Champagne Earth-rise viewing',
-      'Couple\'s zero-gravity spa treatment',
+      'Couple&apos;s zero-gravity spa treatment',
       'Private dining experiences',
       'Stargazing from observation dome',
       'Professional photography session',

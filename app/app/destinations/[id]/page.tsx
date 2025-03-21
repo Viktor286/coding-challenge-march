@@ -56,14 +56,14 @@ export default function DestinationPage({ params }: { params: { id: string } }) 
             >
               Destinations
             </Link>
-            <Link href="#" className="hover:text-blue-200 transition-colors">
+            <Link href="/packages" className="hover:text-blue-200 transition-colors">
               Packages
             </Link>
-            <Link href="#" className="hover:text-blue-200 transition-colors">
+            <Link href="/accommodations" className="hover:text-blue-200 transition-colors">
               Accommodations
             </Link>
-            <Link href="#" className="hover:text-blue-200 transition-colors">
-              Login
+            <Link href="/dashboard" className="hover:text-blue-200 transition-colors">
+              Dashboard
             </Link>
           </nav>
         </div>
