@@ -44,6 +44,9 @@ export default function Home() {
         </div>
         <div className="container mx-auto px-4 z-10 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
+            🚀
+          </h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">
             Dubai to the Stars
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
@@ -62,7 +65,7 @@ export default function Home() {
       {/* Features Section */}
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
             Discover Space Travel
           </h2>
 
@@ -70,8 +73,8 @@ export default function Home() {
             {/* Feature 1 */}
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4">🛰️</div>
-              <h3 className="text-xl font-bold mb-2">Orbital Adventures</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-bold mb-2 text-blue-800">Orbital Adventures</h3>
+              <p className="text-gray-800 font-medium">
                 Experience breathtaking views of Earth from various orbital
                 stations with state-of-the-art amenities.
               </p>
@@ -80,8 +83,8 @@ export default function Home() {
             {/* Feature 2 */}
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4">🌙</div>
-              <h3 className="text-xl font-bold mb-2">Lunar Excursions</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-bold mb-2 text-blue-800">Lunar Excursions</h3>
+              <p className="text-gray-800 font-medium">
                 Walk on the lunar surface and stay in luxury accommodations with
                 Earth views.
               </p>
@@ -90,8 +93,8 @@ export default function Home() {
             {/* Feature 3 */}
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4">🏨</div>
-              <h3 className="text-xl font-bold mb-2">Space Hotels</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-bold mb-2 text-blue-800">Space Hotels</h3>
+              <p className="text-gray-800 font-medium">
                 Choose from a variety of space hotels offering zero-gravity
                 experiences and cosmic dining.
               </p>
@@ -106,32 +109,32 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
               <span className="text-xl font-bold">🚀 SpaceTravel</span>
-              <p className="text-sm text-gray-400 mt-2">
+              <p className="text-sm text-gray-300 mt-2">
                 The Ultimate Space Travel Experience
               </p>
             </div>
             <div className="flex gap-4">
               <a
                 href="#"
-                className="text-gray-400 hover:text-white transition-colors"
+                className="text-gray-300 hover:text-white transition-colors"
               >
                 Terms
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-white transition-colors"
+                className="text-gray-300 hover:text-white transition-colors"
               >
                 Privacy
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-white transition-colors"
+                className="text-gray-300 hover:text-white transition-colors"
               >
                 Contact
               </a>
             </div>
           </div>
-          <div className="mt-8 text-center text-gray-500 text-sm">
+          <div className="mt-8 text-center text-gray-400 text-sm">
             © {new Date().getFullYear()} Space Travel Booking Platform. All
             rights reserved.
           </div>
