@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
@@ -5,26 +7,32 @@ export default function Home() {
       <header className="bg-gradient-to-r from-blue-900 to-purple-900 text-white p-4 md:p-6">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center gap-3 mb-4 md:mb-0">
-            <span className="text-2xl md:text-3xl font-bold">
+            <Link href="/" className="text-2xl md:text-3xl font-bold">
               🚀 SpaceTravel
-            </span>
+            </Link>
           </div>
           <nav className="flex gap-6">
-            <a href="#" className="hover:text-blue-200 transition-colors">
+            <Link
+              href="/"
+              className="text-blue-200 border-b-2 border-blue-200 transition-colors"
+            >
               Home
-            </a>
-            <a href="#" className="hover:text-blue-200 transition-colors">
+            </Link>
+            <Link
+              href="/destinations"
+              className="hover:text-blue-200 transition-colors"
+            >
               Destinations
-            </a>
-            <a href="#" className="hover:text-blue-200 transition-colors">
+            </Link>
+            <Link href="#" className="hover:text-blue-200 transition-colors">
               Packages
-            </a>
-            <a href="#" className="hover:text-blue-200 transition-colors">
+            </Link>
+            <Link href="#" className="hover:text-blue-200 transition-colors">
               Accommodations
-            </a>
-            <a href="#" className="hover:text-blue-200 transition-colors">
+            </Link>
+            <Link href="#" className="hover:text-blue-200 transition-colors">
               Login
-            </a>
+            </Link>
           </nav>
         </div>
       </header>
@@ -42,9 +50,12 @@ export default function Home() {
             Experience the ultimate space travel adventure from the world&apos;s
             first commercial space travel hub
           </p>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-colors">
+          <Link
+            href="/destinations"
+            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-colors inline-block"
+          >
             Book Your Journey
-          </button>
+          </Link>
         </div>
       </section>
 
