@@ -14,7 +14,8 @@
     "project:autofix": "pnpm format && pnpm lint:fix",
     "project:check": "pnpm project:autofix && pnpm lint && pnpm format:check && pnpm typecheck",
     "project:qa": "pnpm project:check && pnpm build",
-    "project:hard-start": "pnpm project:qa && kill $(lsof -t -i:3000) 2>/dev/null || true && pnpm run start"
+    "project:hard-start": "pnpm project:qa && kill $(lsof -t -i:3000) 2>/dev/null || true && pnpm run start",
+    "vercel-build": "next build"
   },
   "dependencies": {
     "next": "15.2.3",

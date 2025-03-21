@@ -1,5 +1,5 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/src/app/$1" }
-  ]
+  "buildCommand": "pnpm vercel-build",
+  "outputDirectory": ".next",
+  "framework": "nextjs"
 }
